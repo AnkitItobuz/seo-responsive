@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .girl-section-left {
     width: 100%;
 }
@@ -48,9 +49,7 @@ body {
     border-radius: 5px;
 }
 
-.optimise-sec-head {
-    color: #6f77f1;
-}
+
 
 .optimise-sec-text {
     color: #727272;
@@ -100,10 +99,6 @@ body {
     font-size: 50px;
 }
 
-.business-sec-head>span {
-    color: #6f77f1;
-}
-
 .business-sec-text {
     color: #828282;
     font-size: 20px;
@@ -117,6 +112,7 @@ body {
     background: #ffffff;
     box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .choose-us-section {
@@ -127,9 +123,6 @@ body {
     font-size: 40px;
 }
 
-.choose-us-head>span {
-    color: #6f77f1;
-}
 
 .choose-us-card {
     background-color: #FFFFFF;
@@ -140,11 +133,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
     cursor: pointer;
-}
-
-.media-section-header>span {
-    color: #6f77f1;
-
 }
 
 .media-section-left {
@@ -229,7 +217,7 @@ body {
     color: #6f77f1;
 }
 
-.expert-social-links>i:hover {
+.expert-social-links>a>i:hover {
     color: #6f77f1;
 }
 
@@ -243,13 +231,16 @@ body {
 }
 
 @media (min-width:800px) {
+
     .media-section-left {
         width: 50%;
     }
+
     .girl-section-left {
         width: 100%;
 
     }
+
     .media-section-right {
         width: 50%;
     }
@@ -263,9 +254,6 @@ body {
     .girl-section-left-head {
         font-size: 2rem !important;
         width: 100%;
-        /* text-align: center; */
-
-
     }
 }
 
@@ -274,24 +262,27 @@ body {
         font-size: 4rem !important;
         width: 75%;
         text-align: center;
-
-
     }
 }
 
 @media (min-width:1000px) {
+
     .optimise-card-sec{
         width: 100%;
     }
+
     .optimise-cards {
         width: 25%;
     }
+
     .card-section {
         width: 100%;
     }
+
     .card-section {
         width: 100%;
     }
+
     .choose-us-card {
         width: 25%;
     }
@@ -299,12 +290,15 @@ body {
     .our-plans-card-section {
         width: 100%;
     }
+
     .our-plan-card {
         width: 25%;
     }
+
     .website-speed-section-left {
         width: 75%;
     }
+
     .achievement-section {
         width: auto;
         margin: auto 10rem;
