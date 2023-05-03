@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.girl-section-left {
+    width: 100%;
+}
+
+.girl-section-left-head {
+    font-size: 4rem;
+    text-align: start;
+}
+
+.color-grey {
+    color: #727272;
+}
+
+.color-blue {
+    color: #6f77f1;
+}
+
+.girl-section-left-text {
+    color: #727272;
+    text-align: start;
+    font-size: 20px !important;
+}
+
+.girl-section {
+    margin-top: 10rem;
+}
+
+.our-team-img {
+    margin-top: -11rem;
+    margin-left: -10rem;
+}
+
+.hero-section-text {
+    color: #828282;
+}
+
+.hero-card {
+    background: #ffffff;
+    box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+    border-radius: 5px;
+}
+
+.optimise-sec-head {
+    color: #6f77f1;
+}
+
+.optimise-sec-text {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.optimise-card-sec {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.optimise-sec-num {
+    color: #fafaff;
+    font-weight: 500;
+    font-size: 229.2px;
+    height: 344px;
+    width: 81px;
+    margin-left: 324.603515625px;
+    margin-top: 1835px;
+    border-radius: nullpx;
+}
+
+.optimise-cards {
+    box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+}
+
+.optimise-cards>text {
+    color: #212528;
+    font-weight: 500;
+}
+
+.optimise-cards>p {
+    color: #828282;
+}
+
+.optimise-cards:hover {
+    border-bottom: solid #6f77f1;
+    cursor: pointer;
+}
+
+.business-sec-container {
+    background-color: #fafafa;
+}
+
+.business-sec-head {
+    font-size: 50px;
+}
+
+.business-sec-head>span {
+    color: #6f77f1;
+}
+
+.business-sec-text {
+    color: #828282;
+    font-size: 20px;
+}
+
+.color-grey {
+    color: #828282;
+}
+
+.business-card:hover {
+    background: #ffffff;
+    box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+    border-radius: 10px;
+}
+
+.choose-us-section {
+    background-color: #FAFAFA;
+}
+
+.choose-us-head {
+    font-size: 40px;
+}
+
+.choose-us-head>span {
+    color: #6f77f1;
+}
+
+.choose-us-card {
+    background-color: #FFFFFF;
+
+}
+
+.choose-us-card:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+    cursor: pointer;
+}
+
+.media-section-header>span {
+    color: #6f77f1;
+
+}
+
+.media-section-left {
+    width: 100%;
+}
+
+.dot-size {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.social-media-cards:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+    border-radius: 4px;
+}
+
+.media-section-right {
+    width: 100%;
+}
+
+.website-speed-form>input:focus {
+    outline: none;
+}
+
+.website-speed-form>input {
+    border-collapse: collapse;
+}
+
+.website-speed-head {
+    font-size: 3rem !important;
+}
+
+.our-plans {
+    background-color: #FAFAFA;
+}
+
+.our-plans-header {
+    font-size: 40px !important;
+}
+
+.our-plan-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    transition-duration: 1.5s;
+}
+
+.our-plan-card:hover {
+    background-color: #6f77f1;
+    color: white !important;
+    scale: 1.1;
+}
+
+.our-plan-card:hover>span {
+    color: white;
+}
+
+.our-plan-card:hover>button {
+    background-color: #FAD725;
+    border: none;
+}
+
+.our-expert-header {
+    font-size: 40px;
+}
+
+.expert-cards {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+}
+
+.expert-cards:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+    cursor: pointer;
+}
+
+.expert-cards:hover>h3 {
+    color: #6f77f1;
+}
+
+.expert-social-links>i:hover {
+    color: #6f77f1;
+}
+
+.client-sec-header {
+    font-size: 40px;
+}
+
+.clients-card {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+}
+
+@media (min-width:800px) {
+    .media-section-left {
+        width: 50%;
+    }
+    .girl-section-left {
+        width: 100%;
+
+    }
+    .media-section-right {
+        width: 50%;
+    }
+
+}
+
+
+
+@media (min-width: 320px) {
+    
+    .girl-section-left-head {
+        font-size: 2rem !important;
+        width: 100%;
+        /* text-align: center; */
+
+
+    }
+}
+
+@media (min-width:500px) {
+    .girl-section-left-head {
+        font-size: 4rem !important;
+        width: 75%;
+        text-align: center;
+
+
+    }
+}
+
+@media (min-width:1000px) {
+    .optimise-card-sec{
+        width: 100%;
+    }
+    .optimise-cards {
+        width: 25%;
+    }
+    .card-section {
+        width: 100%;
+    }
+    .card-section {
+        width: 100%;
+    }
+    .choose-us-card {
+        width: 25%;
+    }
+
+    .our-plans-card-section {
+        width: 100%;
+    }
+    .our-plan-card {
+        width: 25%;
+    }
+    .website-speed-section-left {
+        width: 75%;
+    }
+    .achievement-section {
+        width: auto;
+        margin: auto 10rem;
+    }
+}
